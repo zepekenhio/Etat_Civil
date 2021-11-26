@@ -1,7 +1,3 @@
-#!C:\Users\iBoy\AppData\Local\Programs\Python\Python310\Python.exe
-
-print("Content-Type:text/html")
-print()
 
 import cgi
 import mysql.connector
