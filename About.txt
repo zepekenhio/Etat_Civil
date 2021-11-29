@@ -1,0 +1,13 @@
+Le projet état civil consiste à enregistrer les naissances en uttilisant un formulaire.
+
+Comment configurer et utiliser le programme?
+
+1- Vous devez remplir les prerequis cités dans le fichier README
+2- Configurer le fichier db_config.py en remplaçant les informations suivants host = "localhost", user = "root", passwd = "", avec vos configuation personnel. Ensuite executer le fichier pour creer une base de donnée "naissance"
+3- Executer le fichier table_config.py pour creer une table naissance sur la base de donnée etat_civil_db.
+4- Executer le fichier data_insertion.py pour inserer des données sur la table naissance, vous pouvez inserer vos propre données en modifiant les contenues entre griff dans la partie VALUES()
+5- Utiliser un server web (XAMPP, WAMP, LAMP...) pour utiliser le formulaire.html pour ajouter du contenues sur la base de donnée de façon dynamique. 
+   Mettez le dossier dans la racine de votre server web, par exemple pour XAMPP c'est sur le dossier htdocs, ensuite demarrer le server et navigez vers le formulaire.
+   exemple pour notre cas c'est http://localhost/etat_civil/formulaire.html remplissez tous les champs et envoyer en cliquant sur le bouton enregistrer.
+
+   
