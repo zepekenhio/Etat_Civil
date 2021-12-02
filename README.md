@@ -14,6 +14,6 @@ ouvrez le fichier et configurez le AddHanler pour prendre en compte le py, cgi..
 AddHandler cgi-script .cgi .pl .asp .py
 
 
-add h
+adding header to the file
 
 add mergeeader
